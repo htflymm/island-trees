@@ -1844,7 +1844,7 @@
       THE ISLAND AND THE TREES &middot; 2026
     </p>
     <!-- 每次有實質更新時，手動改下面這行的日期時間 -->
-    <p class="version">最後更新 · 2026.05.17 05:32</p>
+    <p class="version">最後更新 · 2026.05.17 05:42</p>
   </footer>
 
   <script>
@@ -1856,7 +1856,7 @@
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0, rootMargin: '0px 0px -50px 0px' });
 
     document.querySelectorAll('.why-wrap, .trailer-wrap, .actions-wrap, section').forEach(el => {
       if (!el.classList.contains('hero')) {
